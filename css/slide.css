@@ -1,0 +1,127 @@
+/* The CSS for all slides can be edited here, and CSS themes for specific slides can be found at the buttom 
+
+SECTIONS:
+- CSS for All Slides
+- HSK 1
+- HSK 2
+- HSK 3
+- HSK 4
+- HSK 5
+*/
+
+
+/* CSS for All Slides*/
+@font-face {
+  font-family: 'Bluu Next';
+  src: url(https://cdn.glitch.com/d5673a90-b060-451d-8ce9-d4c3ff5cbb5d%2Fbluunext.woff?v=1541228815743), url(https://cdn.glitch.com/d5673a90-b060-451d-8ce9-d4c3ff5cbb5d%2Fbluunext.woff2?v=1541228816624);
+}
+
+body {
+  font-family: "Bluu Next", "Times New Roman";
+  font-size: 24px;
+  
+  background-color: #edc786;
+  background-image: linear-gradient(180deg, #FFC0CB, rgba(255, 255, 255, 0));
+  
+  color: #000000;
+  
+  height: 100vh;
+  
+  transition: background-color 0.5s;
+
+}
+
+
+section {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width:60%;
+  text-align: center;
+}
+
+section a {
+  color: #000000; 
+}
+
+h2 {
+  font-size: 15vmin;
+  padding: 0 0 0 0;
+  margin: 0 0;
+} 
+
+.pinyin {
+  font-family: "inter";
+  font-size: 4vmin;
+  color: grey;
+padding: 0 0 0 0;
+  margin: 0 0;
+}
+
+h3 {
+  font-size: 6vmin;
+  padding: 60 20;
+}
+
+.pagenum{
+    position : fixed;
+    top: 0;
+    right: 0;
+      padding-top: 30px;
+    padding-right: 30px;
+    font-size: 4vmin;
+    opacity: 0.8 !important;
+}
+
+.back {
+  position : fixed;
+    top: 0;
+    left: 0;
+      padding-top: 30px;
+    padding-left: 30px;
+    font-size: 3vmin;
+    opacity: 0.8 !important;
+}
+
+a {
+  text-decoration: none;
+  font-style: italic;
+  color: black;
+}
+
+footer{
+  position:fixed;
+  bottom:0px;
+  left: 0;
+  width: 100%;
+  padding:30px;
+  display:flex;
+  
+  justify-content:center;
+  align-items: center;
+  
+
+  
+}
+
+footer img {
+  margin: 0 20px 0 20px;
+  cursor: pointer;
+  display: inline-block;
+  min-width: 100px;
+}
+
+
+ADD 
+
+
+/* HSK1*/
+
+/* HSK2 */
+
+/* HSK3 */
+
+/* HSK4 */
+
+/* HSK5 */
