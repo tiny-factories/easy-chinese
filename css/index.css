@@ -73,6 +73,12 @@ div.中文 {
   padding-bottom: 20px;
   text-align: center;
   font-weight: bold;
+
+}
+
+.hero{ 
+  background: linear-gradient(180deg, rgba(229, 202, 155, 0.3) 0%, rgba(237, 204, 202, 0.3) 100%);
+  
 }
 
 .hero-title {
@@ -108,7 +114,7 @@ div.中文 {
 /*   margin: 5rem 0; */
 }
 
-.banner-wrapper:nth-child(even) {
+.banner-wrapper:nth-child(odd) {
   flex-direction: row-reverse;
 }
 
@@ -143,7 +149,7 @@ div.中文 {
 
 
 section.hero {
-  background-color: #F5F5F5;
+  background-color: #FFF;
 }
 
 section.ticker {
@@ -199,9 +205,9 @@ section.subscribe {
 
 .buybutton:hover {
   color: blue;
-  -webkit-animation: gradient 3s ease infinite;
-  -moz-animation: gradient 3s ease infinite;
-  animation: gradient 3s ease infinite;
+  -webkit-animation: gradient 2s ease infinite;
+  -moz-animation: gradient 2s ease infinite;
+  animation: gradient 2s ease infinite;
 }
 
 .bttn-lifetime {
