@@ -1,0 +1,597 @@
+[
+  {
+    "Chinese": "绝对不是。",
+    "English": "Absolutely not.",
+    "Pinyin": "Juéduì bú shì。"
+  },
+  {
+    "Chinese": "你跟我一起去吗？",
+    "English": "Are you coming with me?",
+    "Pinyin": "Nǐ gēn wǒ yìqǐ qù ma?"
+  },
+  {
+    "Chinese": "你能肯定吗？",
+    "English": "Are you sure?",
+    "Pinyin": "Nǐ néng kěndìng ma?"
+  },
+  {
+    "Chinese": "快到了吗?",
+    "English": "Are we almost there?",
+    "Pinyin": "Kuài dàole ma?"
+  },
+  {
+    "Chinese": "尽快。",
+    "English": "As soon as possible.",
+    "Pinyin": "Jìnkuài。"
+  },
+  {
+    "Chinese": "相信我。",
+    "English": "Believe me.",
+    "Pinyin": "Xiāngxìn wǒ。"
+  },
+  {
+    "Chinese": "买下来！",
+    "English": "Buy it!",
+    "Pinyin": "Mǎi xià lái!"
+  },
+  {
+    "Chinese": "明天打电话给我。",
+    "English": "Call me tomorrow.",
+    "Pinyin": "Míngtiān dǎ diànhuà gěi wǒ。"
+  },
+  {
+    "Chinese": "请您说得慢些好吗？",
+    "English": "Can you speak slowly?",
+    "Pinyin": "Qǐng nín shuō de màn xiē hǎo ma?"
+  },
+  {
+    "Chinese": "跟我来。",
+    "English": "Come with me.",
+    "Pinyin": "Gēn wǒ lái。"
+  },
+  {
+    "Chinese": "恭喜恭喜。",
+    "English": "Congratulations.",
+    "Pinyin": "Gōngxǐ gōngxǐ。"
+  },
+  {
+    "Chinese": "把它做对。",
+    "English": "Do it right!",
+    "Pinyin": "Bǎ tā zuò duì。"
+  },
+  {
+    "Chinese": "你当真？",
+    "English": "Do you mean it?",
+    "Pinyin": "Nǐ dàngzhēn?"
+  },
+  {
+    "Chinese": "你经常见到他吗？",
+    "English": "Do you see him often?",
+    "Pinyin": "Nǐ jīngcháng jiàn dào tā ma?"
+  },
+  {
+    "Chinese": "你明白了吗？",
+    "English": "Do you understand?",
+    "Pinyin": "Nǐ míngbái le ma?"
+  },
+  {
+    "Chinese": "你要吗？",
+    "English": "Do you want it?",
+    "Pinyin": "Nǐ yào ma?"
+  },
+  {
+    "Chinese": "你想要些什么？",
+    "English": "Do you want something?",
+    "Pinyin": "Nǐ xiǎng yào xiē shénme?"
+  },
+  {
+    "Chinese": "不要做。",
+    "English": "Don’t do it.",
+    "Pinyin": "Bú yào zuò。"
+  },
+  {
+    "Chinese": "不要夸张。",
+    "English": "Don’t exaggerate.",
+    "Pinyin": "Bú yào kuāzhāng。"
+  },
+  {
+    "Chinese": "不要告诉我。",
+    "English": "Don’t tell me that.",
+    "Pinyin": "Bú yào gàosu wǒ。"
+  },
+  {
+    "Chinese": "帮我一下。",
+    "English": "Give me a hand.",
+    "Pinyin": "Bāng wǒ yíxià。"
+  },
+  {
+    "Chinese": "一直往前走。",
+    "English": "Go right ahead.",
+    "Pinyin": "Yìzhí wǎng qián zǒu。"
+  },
+  {
+    "Chinese": "祝旅途愉快。",
+    "English": "Have a good trip.",
+    "Pinyin": "Zhù lǚtú yúkuài。"
+  },
+  {
+    "Chinese": "祝你一天过得愉快。",
+    "English": "Have a nice day.",
+    "Pinyin": "Zhù nǐ yì tiān guò de yúkuài。"
+  },
+  {
+    "Chinese": "再来一个。",
+    "English": "Have another one.",
+    "Pinyin": "Zài lái yígè。"
+  },
+  {
+    "Chinese": "你做完了吗？",
+    "English": "Have you finished?",
+    "Pinyin": "Nǐ zuò wán le ma?"
+  },
+  {
+    "Chinese": "他没空。",
+    "English": "He doesn’t have time.",
+    "Pinyin": "Tā méi kòng。"
+  },
+  {
+    "Chinese": "他现在已经在路上了。",
+    "English": "He is on his way.",
+    "Pinyin": "Tā xiànzài yǐjīng zài lù shàng le。"
+  },
+  {
+    "Chinese": "你好吗？",
+    "English": "How are you doing?",
+    "Pinyin": "Nǐ hǎo ma?"
+  },
+  {
+    "Chinese": "你要呆多久？",
+    "English": "How long are you staying?",
+    "Pinyin": "Nǐ yào dāi duōjiǔ?"
+  },
+  {
+    "Chinese": "多少钱?",
+    "English": "How much?",
+    "Pinyin": "Duōshǎo qián?"
+  },
+  {
+    "Chinese": "我在浪费时间。",
+    "English": "I am wasting my time.",
+    "Pinyin": "Wǒ zài làngfèi shíjiān。"
+  },
+  {
+    "Chinese": "我能做。",
+    "English": "I can do it.",
+    "Pinyin": "Wǒ néng zuò。"
+  },
+  {
+    "Chinese": "我简直不能相信。",
+    "English": "I can’t believe it.",
+    "Pinyin": "Wǒ jiǎnzhí bùnéng xiāngxìn。"
+  },
+  {
+    "Chinese": "我不能再等了。",
+    "English": "I can’t wait.",
+    "Pinyin": "Wǒ bù néng zài děng le。"
+  },
+  {
+    "Chinese": "我没时间了。",
+    "English": "I don’t have time.",
+    "Pinyin": "Wǒ méi shíjiān le。"
+  },
+  {
+    "Chinese": "我一个人都不认识。",
+    "English": "I don’t know anybody.",
+    "Pinyin": "Wǒ yī gè rén dōu bú rènshi。"
+  },
+  {
+    "Chinese": "我不喜欢。",
+    "English": "I don’t like it.",
+    "Pinyin": "Wǒ bù xǐhuan。"
+  },
+  {
+    "Chinese": "我认为不是。",
+    "English": "I don’t think so.",
+    "Pinyin": "Wǒ rènwéi búshì。"
+  },
+  {
+    "Chinese": "我感觉好多了。",
+    "English": "I feel much better.",
+    "Pinyin": "Wǒ gǎnjué hǎo duō le。"
+  },
+  {
+    "Chinese": "我找到了。",
+    "English": "I found it.",
+    "Pinyin": "Wǒ zhǎo dào le。"
+  },
+  {
+    "Chinese": "我讨厌你！",
+    "English": "I hate you!",
+    "Pinyin": "Wǒ tǎoyàn nǐ!"
+  },
+  {
+    "Chinese": "我希望如此。",
+    "English": "I hope so.",
+    "Pinyin": "Wǒ xīwàng rúcǐ。"
+  },
+  {
+    "Chinese": "我早知道了。",
+    "English": "I knew it.",
+    "Pinyin": "Wǒ zǎo zhīdào le。"
+  },
+  {
+    "Chinese": "我爱你。",
+    "English": "I love you.",
+    "Pinyin": "Wǒ ài nǐ。"
+  },
+  {
+    "Chinese": "我注意到了。",
+    "English": "I noticed that.",
+    "Pinyin": "Wǒ zhùyì dào le。"
+  },
+  {
+    "Chinese": "我明白了。",
+    "English": "I see.",
+    "Pinyin": "Wǒ míngbái le。"
+  },
+  {
+    "Chinese": "我认为是这样的。",
+    "English": "I think so.",
+    "Pinyin": "Wǒ rènwéi shì zhèyàng de。"
+  },
+  {
+    "Chinese": "我想跟他说话。",
+    "English": "I want to speak with him.",
+    "Pinyin": "Wǒ xiǎng gēn tā shuō huà。"
+  },
+  {
+    "Chinese": "我赢了。",
+    "English": "I won.",
+    "Pinyin": "Wǒ yíng le。"
+  },
+  {
+    "Chinese": "请给我一杯咖啡。",
+    "English": "I would like a cup of coffee, please.",
+    "Pinyin": "Qǐng gěi wǒ yì bēi kāfēi。"
+  },
+  {
+    "Chinese": "我饿死了。",
+    "English": "I’m hungry.",
+    "Pinyin": "Wǒ è sǐ le。"
+  },
+  {
+    "Chinese": "我要走了。",
+    "English": "I’m leaving.",
+    "Pinyin": "Wǒ yào zǒu le。"
+  },
+  {
+    "Chinese": "对不起。",
+    "English": "I’m sorry.",
+    "Pinyin": "Duì bu qǐ。"
+  },
+  {
+    "Chinese": "我习惯了。",
+    "English": "I’m used to it.",
+    "Pinyin": "Wǒ xíguàn le。"
+  },
+  {
+    "Chinese": "我会想念你的。",
+    "English": "I’ll miss you.",
+    "Pinyin": "Wǒ huì xiǎngniàn nǐ de。"
+  },
+  {
+    "Chinese": "我试试看。",
+    "English": "I’ll try.",
+    "Pinyin": "Wǒ shìshì kàn。"
+  },
+  {
+    "Chinese": "我很无聊。",
+    "English": "I’m bored.",
+    "Pinyin": "Wǒ hěn wúliáo。"
+  },
+  {
+    "Chinese": "我很忙。",
+    "English": "I’m busy.",
+    "Pinyin": "Wǒ hěn máng。"
+  },
+  {
+    "Chinese": "我玩得很开心。",
+    "English": "I’m having fun.",
+    "Pinyin": "Wǒ wán de hěn kāixīn。"
+  },
+  {
+    "Chinese": "我准备好了。",
+    "English": "I’m ready.",
+    "Pinyin": "Wǒ zhǔnbèi hǎo le。"
+  },
+  {
+    "Chinese": "我明白了。",
+    "English": "I’ve got it.",
+    "Pinyin": "Wǒ míngbái le。"
+  },
+  {
+    "Chinese": "真是难以置信！",
+    "English": "It’s incredible!",
+    "Pinyin": "Zhēnshì nányǐ zhìxìn!"
+  },
+  {
+    "Chinese": "很远吗？",
+    "English": "Is it far?",
+    "Pinyin": "Hěn yuǎn ma?"
+  },
+  {
+    "Chinese": "没关系。",
+    "English": "It doesn’t matter.",
+    "Pinyin": "Méiguānxi。"
+  },
+  {
+    "Chinese": "闻起来很香。",
+    "English": "It smells good.",
+    "Pinyin": "Wén qǐlái hěn xiāng。"
+  },
+  {
+    "Chinese": "是时候了。",
+    "English": "It’s about time.",
+    "Pinyin": "Shì shíhou le。"
+  },
+  {
+    "Chinese": "没事儿。",
+    "English": "It’s all right.",
+    "Pinyin": "Méi shìr。"
+  },
+  {
+    "Chinese": "很容易。",
+    "English": "It’s easy.",
+    "Pinyin": "Hěn róngyì。"
+  },
+  {
+    "Chinese": "很好。",
+    "English": "It’s good.",
+    "Pinyin": "Hěn hǎo。"
+  },
+  {
+    "Chinese": "离这很近。",
+    "English": "It’s near here.",
+    "Pinyin": "Lí zhè hěn jìn。"
+  },
+  {
+    "Chinese": "没什么。",
+    "English": "It’s nothing.",
+    "Pinyin": "Méi shénme。"
+  },
+  {
+    "Chinese": "该走了。",
+    "English": "It’s time to go.",
+    "Pinyin": "Gāi zǒu le。"
+  },
+  {
+    "Chinese": "那是不同的。",
+    "English": "It’s different.",
+    "Pinyin": "Nà shì bùtóng de。"
+  },
+  {
+    "Chinese": "很滑稽。",
+    "English": "It’s funny.",
+    "Pinyin": "Hěn huájī。"
+  },
+  {
+    "Chinese": "那是不可能的。",
+    "English": "It’s impossible.",
+    "Pinyin": "Nà shì bù kěnéng de。"
+  },
+  {
+    "Chinese": "还行。",
+    "English": "It’s not bad.",
+    "Pinyin": "Hái xíng。"
+  },
+  {
+    "Chinese": "不难。",
+    "English": "It’s not difficult.",
+    "Pinyin": "Bù nán。"
+  },
+  {
+    "Chinese": "不值得。",
+    "English": "It’s not worth it.",
+    "Pinyin": "Bù zhí dé。"
+  },
+  {
+    "Chinese": "很明显。",
+    "English": "It’s obvious.",
+    "Pinyin": "Hěn míngxiǎn。"
+  },
+  {
+    "Chinese": "还是一样的。",
+    "English": "It’s the same thing.",
+    "Pinyin": "Háishì yíyàng de。"
+  },
+  {
+    "Chinese": "轮到你了。",
+    "English": "It’s your turn.",
+    "Pinyin": "Lún dào nǐ le。"
+  },
+  {
+    "Chinese": "我也一样。",
+    "English": "Me too.",
+    "Pinyin": "Wǒ yě yíyàng。"
+  },
+  {
+    "Chinese": "还没有。",
+    "English": "Not yet.",
+    "Pinyin": "Hái méiyǒu。"
+  },
+  {
+    "Chinese": "放松！",
+    "English": "Relax!",
+    "Pinyin": "Fàngsōng!"
+  },
+  {
+    "Chinese": "明天见。",
+    "English": "See you tomorrow.",
+    "Pinyin": "Míngtiān jiàn。"
+  },
+  {
+    "Chinese": "她是我最好的朋友。",
+    "English": "She is my best friend.",
+    "Pinyin": "Tā shì wǒ zuì hǎo de péngyǒu。"
+  },
+  {
+    "Chinese": "她真聪明。",
+    "English": "She is so smart.",
+    "Pinyin": "Tā zhēn cōngmíng。"
+  },
+  {
+    "Chinese": "慢点儿！",
+    "English": "Slow down!",
+    "Pinyin": "Màn diǎnr!"
+  },
+  {
+    "Chinese": "告诉我。",
+    "English": "Tell me.",
+    "Pinyin": "Gàosu wǒ。"
+  },
+  {
+    "Chinese": "多谢。",
+    "English": "Thank you very much.",
+    "Pinyin": "Duō xiè。"
+  },
+  {
+    "Chinese": "这样的事情经常发生。",
+    "English": "That happens.",
+    "Pinyin": "Zhè yàng de shìqíng jīngcháng fāshēng。"
+  },
+  {
+    "Chinese": "够了。",
+    "English": "That’s enough.",
+    "Pinyin": "Gòu le。"
+  },
+  {
+    "Chinese": "很有趣。",
+    "English": "That’s interesting.",
+    "Pinyin": "Hěn yǒuqù。"
+  },
+  {
+    "Chinese": "对了。",
+    "English": "That’s right.",
+    "Pinyin": "Duì le。"
+  },
+  {
+    "Chinese": "这是真的。",
+    "English": "That’s true.",
+    "Pinyin": "Zhè shì zhēn de。"
+  },
+  {
+    "Chinese": "这里人很多。",
+    "English": "There are too many people here.",
+    "Pinyin": "Zhèlǐ rén hěnduō。"
+  },
+  {
+    "Chinese": "他们互相倾慕。",
+    "English": "They like each other.",
+    "Pinyin": "Tāmen hùxiāng qīngmù。"
+  },
+  {
+    "Chinese": "考虑一下。",
+    "English": "Think about it.",
+    "Pinyin": "Kǎolǜ yí xià。"
+  },
+  {
+    "Chinese": "太糟糕啦！",
+    "English": "Too bad!",
+    "Pinyin": "Tài zāogāo la!"
+  },
+  {
+    "Chinese": "等等我。",
+    "English": "Wait for me.",
+    "Pinyin": "Děng děng wǒ。"
+  },
+  {
+    "Chinese": "你说什么？",
+    "English": "What did you say?",
+    "Pinyin": "Nǐ shuō shénme?"
+  },
+  {
+    "Chinese": "你认为怎样？",
+    "English": "What do you think?",
+    "Pinyin": "Nǐ rènwéi zěnyàng?"
+  },
+  {
+    "Chinese": "他在说些什么？",
+    "English": "What is he talking about?",
+    "Pinyin": "Tā zài shuō xiē shénme?"
+  },
+  {
+    "Chinese": "多坏的天气！",
+    "English": "What terrible weather!",
+    "Pinyin": "Duō huài de tiānqì!"
+  },
+  {
+    "Chinese": "怎么啦？",
+    "English": "What’s happening?",
+    "Pinyin": "Zěnme la?"
+  },
+  {
+    "Chinese": "今天几号？",
+    "English": "What’s the date today?",
+    "Pinyin": "Jīntiān jǐ hào?"
+  },
+  {
+    "Chinese": "你去哪里？",
+    "English": "Where are you going?",
+    "Pinyin": "Nǐ qù nǎ lǐ?"
+  },
+  {
+    "Chinese": "他在哪里？",
+    "English": "Where is he?",
+    "Pinyin": "Tā zài nǎ lǐ?"
+  },
+  {
+    "Chinese": "你太性急了。",
+    "English": "You are impatient.",
+    "Pinyin": "Nǐ tài xìngjí le。"
+  },
+  {
+    "Chinese": "你看上去很累。",
+    "English": "You look tired.",
+    "Pinyin": "Nǐ kàn shàngqù hěn lèi。"
+  },
+  {
+    "Chinese": "你让我大吃一惊。",
+    "English": "You surprise me.",
+    "Pinyin": "Nǐ ràng wǒ dà chī yì jīng。"
+  },
+  {
+    "Chinese": "你疯了。",
+    "English": "You’re crazy.",
+    "Pinyin": "Nǐ fēngle。"
+  },
+  {
+    "Chinese": "别客气。",
+    "English": "You’re welcome.",
+    "Pinyin": "Bié kèqi。"
+  },
+  {
+    "Chinese": "你总是对的。",
+    "English": "You’re always right.",
+    "Pinyin": "Nǐ zǒng shì duì de。"
+  },
+  {
+    "Chinese": "你的心情不好。",
+    "English": "You’re in a bad mood.",
+    "Pinyin": "Nǐ de xīnqíng bù hǎo。"
+  },
+  {
+    "Chinese": "你在撒谎。",
+    "English": "You’re lying.",
+    "Pinyin": "Nǐ zài sāhuǎng。"
+  },
+  {
+    "Chinese": "你错了。",
+    "English": "You’re wrong.",
+    "Pinyin": "Nǐ cuòle。"
+  },
+  {
+    "Chinese": "哇塞！",
+    "English": "Wow!",
+    "Pinyin": "Wasài!"
+  }
+]

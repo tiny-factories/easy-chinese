@@ -1,0 +1,57 @@
+.marquee {
+    font-weight: 600;
+    position: absolute;
+    padding-top: 10px;
+
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+    width: 100%;
+    overflow: hidden;
+    mix-blend-mode:exclusion;
+}
+
+.marquee span{
+    font-size: 130px;
+    color: white;
+
+    white-space: nowrap;
+    /* position:relative; */
+    display: flex;
+    line-height: 0.8;
+}
+
+marquee span.left_move{
+    animation: moveLeft 1000s linear infinite;
+}
+
+
+.marquee span.right_move{
+    animation: moveRight 1000s linear infinite;
+}
+
+.marquee span.flicker_move_right{
+    animation: 
+    moveRight 1000s linear infinite, 
+    flickerAnimation 2s infinite;
+}
+
+.marquee span.flicker_move_left{
+    animation: 
+    moveLeft 1000s linear infinite, 
+    flickerAnimation 2s infinite;
+}
+
+
+.appear {
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 8s;
+    animation-delay: 0.5s;
+
+    /*Image in body layer doesn't work*/
+    /* By setting it forward it sets opacity 0 here as a starting point */
+    animation-fill-mode: forwards;
+}
+

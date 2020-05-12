@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Easy Chinese Flashcards</title>
+
+    <!-- Site Styles -->
+    <link rel="stylesheet" href="/css/tachyons.css" />
+    <link rel="stylesheet" href="/css/modal.css" />
+    <link rel="stylesheet" href="/css/index.css" />
+
+    <!-- Site Scripts -->
+    <script src="/js/modal.js" defer></script>
+    <script src="/js/userbase.js" defer></script>
+<!--     <script
+      type="text/javascript"
+      src="https://sdk.userbase.com/1/userbase.js"
+    ></script> -->
+    <script src="https://gumroad.com/js/gumroad.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-134902527-8"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-134902527-8");
+    </script>
+
+
+    <!-- Primary Meta Tags -->
+    <title>Easy Chinese Flashcards</title>
+    <meta name="title" content="Easy Chinese Flashcards" />
+    <meta
+      name="description"
+      content="A carefully curated, fun, and pretty flashcards to accelerate your chinese learning from scratch"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://easychinese.space/" />
+    <meta property="og:title" content="Easy Chinese Flashcards" />
+    <meta
+      property="og:description"
+      content="A carefully curated, fun, and pretty flashcards to accelerate your chinese learning from scratch"
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/6b2dd90f-c5a0-4948-b837-75f0ef4ef5b7%2Fopen%20graph.png?v=1582778562201"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://easychinese.space/" />
+    <meta property="twitter:title" content="Easy Chinese Flashcards" />
+    <meta
+      property="twitter:description"
+      content="A carefully curated, fun, and pretty flashcards to accelerate your chinese learning from scratch"
+    />
+    <meta
+      property="twitter:image"
+      content="https://cdn.glitch.com/6b2dd90f-c5a0-4948-b837-75f0ef4ef5b7%2Fopen%20graph.png?v=1582778562201"
+    />
+       <img src="https://project-traffic.glitch.me/counter.png?fallback=MY_WEBSITE&color=black" alt="" style="display:none;" aria-hidden="true">
+  </head>
+
+  <body>
+    <!-- LoggedOut View Start -->
+    <div id="logged-out-view">
+      <!--SITE NAVAGATION START-->
+      <nav class="flex justify-between">
+        <a
+          class="link black-70 hover-black no-underline flex items-center pa3"
+          href=""
+          >Easy Chinese</a
+        >
+        <div class="flex-grow pa3 flex items-center">
+          <!--     <a class="f6 link dib black dim mr3 mr4-ns" href="#0">About</a> -->
+          <a class="f6 link dib black dim mr3 mr4-ns" href="/slides/hsk1.html"
+            >Try</a
+          >
+
+          <a
+            class="trigger f6 dib black bg-animate hover-bg-black hover-white no-underline pv2 ph3 br2 ba b--black-60"
+            >Sign In</a
+          >
+        </div>
+      </nav>
+      <!--SITE NAVAGATION END-->
+
+      <!--       <button class="trigger">Click here to trigger the modal!</button> -->
+      <div class="modal">
+        <div class="modal-content">
+          <span class="close-button">&times;</span>
+          <div>
+            <h3>
+              Sign In
+            </h3>
+            <!--LogIn Info Start-->
+            <!--       <h1>Login</h1> -->
+            <form id="login-form">
+              <input
+                id="login-username"
+                type="text"
+                required
+                placeholder="Email"
+              />
+              <input
+                id="login-password"
+                type="password"
+                required
+                placeholder="Password"
+              />
+              <input type="submit" value="Sign in" />
+            </form>
+            <div id="login-error"></div>
+          </div>
+        </div>
+      </div>
+
+      <!--       <input type="button" value="Logout" id="logout-button">
+ -->
+      <!--       <h1>Create an account</h1> -->
+      <form id="signup-form" style="display:none;">
+       <input
+          id="signup-username"
+          type="text"
+          required
+          placeholder="Username"
+        />
+        <input
+          id="signup-password"
+          type="password"
+          required
+          placeholder="Password"
+        /> 
+<input type="submit" value="Create an account" /> 
+      </form>
+      <div id="signup-error"></div>
+      <!--LogIn Info End-->
+      <section class="w-100 pa3 hero">
+        <div class="dt  center pt0 pb5 pv5-m pv6-ns">
+          <div class="db dtc-ns v-mid-ns ph5">
+            <img
+              src="https://cdn.glitch.com/6b2dd90f-c5a0-4948-b837-75f0ef4ef5b7%2Ftop%20cover.png?v=1581286432133"
+              alt="An image showing the slideshows"
+              class="shadow-5 w-100 mw5 w50-ns br3"
+            />
+          </div>
+
+          <div class="db mw6 dtc-ns v-mid ph2 pr0-ns pl3-ns">
+            <h1 class=" hero-title ">
+              Chinese Flashcards
+            </h1>
+            <p class="hero-description">
+              Carefully curated, fun, and pretty flashcards to accelerate your
+              chinese learning from scratch
+            </p>
+            <p class="hero-info pv3">
+              😌 Beginner friendly 😆️Intermediate Brush up
+            </p>
+
+            <a
+              class="w-100 f3 no-underline pv2 ph4 buybutton"
+              href="https://gum.co/FxRJr?wanted=true"
+              target="_blank"
+              >Lifetime Access for <strike style="opacity: 0.6;"> $20</strike> $9 </a
+            >
+            <p class="hero-info pv3">
+              Unlimited Updates + Never Expires
+            </p>
+            <!--           <div class="square" data-parallax="0.2"></div> -->
+          </div>
+        </div>
+      </section>
+
+      <section class="fl w-100 pa5 ticker">
+        <div class="fl w-100">
+          <p class="section-title">
+            A curated list of words and sample sentences including:
+          </p>
+
+          <marquee
+            behavior="scroll"
+            direction="left"
+            onmouseover="this.stop();"
+            onmouseout="this.start();"
+          >
+            🖥 Technology, 💼 Business, 💬 Conversation starter, 🧬 Science, 🗣
+            Daily Sentence, 🤝 Greetings, ⏳ Time, 🌧 Weather, 🚉 Transportation,
+            🥑 Foods, 📄 HSK Exam Prep, ⚽︎ Sports, and much more!
+          </marquee>
+        </div>
+      </section>
+
+      <section class="fl w-100 pa3 recommend">
+        
+        <div class="fl w-60 w-60-l w-100-m w-60-ns v-mid">
+          <p class="fl w-20 emoji-icon v-mid">
+            📮
+          </p>
+          <p class="fl w-80 v-mid">
+            Don’t see something you want to study? Tell us what vocabulary
+            matters to you and we will make a flashcard pack around it!
+          </p>
+        </div>
+           <div class="fl w-100 w-30-l w-100-m w-30-ns buybutton v-mid">
+          <a class="no-underline v-mid" 
+            href="mailto:hello@tinyfactories.space?subject=The%20subject%20of%20the%20mail"
+            >Contact Us</a
+          >
+        </div>
+       
+      </section>
+      
+<!--   <section class="ph3 ph5-ns pv5 recommend">
+  <article class="mw8 center br2">
+    <div class="dt-ns dt--fixed-ns w-100">
+      <div class="pa3 pa4-ns dtc-ns v-mid">
+        <div>
+          <h2 class="fw4 blue mt0 mb3 ph2 emoji-icon">📮</h2>
+          <p class=" mv0">
+Don’t see something you want to study? Tell us what vocabulary
+            matters to you and we will make a flashcard pack around it!          </p>
+        </div>
+      </div>
+      <div class="pa3 pa4-ns dtc-ns v-mid">
+        <a href="mailto:hello@tinyfactories.space?subject=The%20subject%20of%20the%20mail" class="no-underline f6 tc db w-100 pv3 buybutton br2">Contact Us</a>
+      </div>
+    </div>
+  </article>
+</section> -->
+
+      <section
+        class="fl w-100 banner-wrapper"
+        style="background-color:#F6F6F6; "
+      >
+        <img
+          src="https://cdn.glitch.com/6b2dd90f-c5a0-4948-b837-75f0ef4ef5b7%2Fhsk.png?v=1583287108003"
+          srcset="
+            https://cdn.glitch.com/6b2dd90f-c5a0-4948-b837-75f0ef4ef5b7%2Fhsk.png?v=1583287108003,
+            https://cdn.glitch.com/6b2dd90f-c5a0-4948-b837-75f0ef4ef5b7%2Fhsk.png?v=1583287108003 2x
+          "
+        />
+
+        <div class="packdetails">
+          <h2>
+            HSK Exam Prep
+          </h2>
+          <p>
+            Planing on taking HSK exam or just looking to build your
+            foundational Chinese launguage skills? This is a great place to
+            start! This pack has more then 1053 words spaning acoss number,
+            basic greetings, transporation, and much more!
+          </p>
+        </div>
+      </section>
+
+      <section
+        class="fl w-100 banner-wrapper"
+        style="background-color:#F5FAFA;"
+      >
+        <img
+          src="https://cdn.glitch.com/6b2dd90f-c5a0-4948-b837-75f0ef4ef5b7%2Fdaily.png?v=1583287107985"
+          srcset="
+            https://cdn.glitch.com/6b2dd90f-c5a0-4948-b837-75f0ef4ef5b7%2Fdaily.png?v=1583287107985,
+            https://cdn.glitch.com/6b2dd90f-c5a0-4948-b837-75f0ef4ef5b7%2Fdaily.png?v=1583287107985 2x
+          "
+        />
+
+        <div class="packdetails">
+          <h2>
+            Daily Sentences
+          </h2>
+          <p>
+            Curious about how to put frequently used chinese words to practice?
+            This is a complete pack of words and sentences that everyone use to
+            communicate with others. Practicing with this pack will help you to
+            express yourself in chinese.
+          </p>
+        </div>
+      </section>
+
+      <section
+        class="fl w-100 banner-wrapper"
+        style="background-color:#F5FAFA;"
+      >
+        <img
+          src="https://cdn.glitch.com/6b2dd90f-c5a0-4948-b837-75f0ef4ef5b7%2Fgreetings.png?v=1583287108123"
+          srcset="
+            https://cdn.glitch.com/6b2dd90f-c5a0-4948-b837-75f0ef4ef5b7%2Fgreetings.png?v=1583287108123,
+            https://cdn.glitch.com/6b2dd90f-c5a0-4948-b837-75f0ef4ef5b7%2Fgreetings.png?v=1583287108123 2x
+          "
+        />
+
+        <div class="packdetails">
+          <h2>
+            Greetings
+          </h2>
+          <p>
+            Are you aiming to have conversations in chinese? Start by practicing
+            with sample gretting questions and answers! This pack start with
+            basic greetings and advances to more complex questions over time.
+          </p>
+        </div>
+      </section>
+
+      <section class="fl w-100 pa5 mini-library">
+        <div class="fl w-100">
+          <p class="tc f2 section-title">
+            An exclusive package
+          </p>
+          <p class="tc">
+            A curated list of words and sample sentences including:
+          </p>
+        </div>
+        <div class="v-mid pv6">
+          <div class="fl w-100 w-20-ns tc" style="background-color:#E8F6FA;">
+            <p class="emoji-icon">
+              🥑
+            </p>
+            <p class="emoji-description">
+              Food
+            </p>
+          </div>
+          <div class="fl w-100 w-20-ns tc" style="background-color:#F5FAFA;">
+            <p class="emoji-icon">
+              ⚽️
+            </p>
+            <p class="tc emoji-description">
+              Sports
+            </p>
+          </div>
+          <div class="fl w-100 w-20-ns tc" style="background-color:#F8FAD3;">
+            <p class="emoji-icon">
+              🚉
+            </p>
+            <p class="tc emoji-description">
+              Transit
+            </p>
+          </div>
+          <div class="fl w-100 w-20-ns tc" style="background-color:#E8FAF3;">
+            <p class="emoji-icon">
+              🌧
+            </p>
+            <p class="tc emoji-description">
+              Weather
+            </p>
+          </div>
+          <div class="fl w-100 w-20-ns tc" style="background-color:#FAE3E5;">
+            <p class="emoji-icon">
+              📞
+            </p>
+            <p class="tc emoji-description">
+              Text
+            </p>
+          </div>
+          <div class="fl w-100  list-center ">
+            <ul style="display:inline-block;text-align:left;">
+              <li class="pv2">
+                🗂 Access to all 2000+ words, pinyin, and definitions
+              </li>
+              <li class="pv2">📱 Study from any device of your choice</li>
+              <li class="pv2">📝 Includes all commonly used words</li>
+              <li class="pv2">📖 Practice with helpful sentences</li>
+              <li class="pv2">✨ Unlimited updates + never expires</li>
+              <li class="pv2">📥 Suggest flashcards and features!</li>
+            </ul>
+            <br /><br /><a
+              class="fc w-100 f3 no-underline pv2 ph4 buybutton"
+              href="https://gum.co/FxRJr?wanted=true"
+              target="_blank"
+              >Lifetime Access for <strike style="opacity: 0.6;"> $20</strike> $9</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!--       <section class="fl w-100 pa5">
+        <div class="fl w-20">
+          <p class="emoji-icon">
+            📨
+          </p>
+        </div>
+        <div class="fl w-80">
+          <div class="fl w-100">
+            <p>
+              Get notified only when new flashcards are added, no spam ever.
+            </p>
+          </div>
+          <div class="fl w-100">
+            <form class="cf w-100">
+              <div class="cf">
+                <label class="clip" for="email-address">Email Address</label>
+                <input
+                  class="fl w-80"
+                  placeholder="Your Email Address"
+                  type="text"
+                  name="email-address"
+                  value=""
+                  id="email-address"
+                />
+                <input class="fr w-20" type="submit" value="Subscribe" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </section> -->
+    </div>
+    <!-- LoggedOut View End -->
+
+    <!-- LoggedIn View Start -->
+    <div id="logged-in-view">
+      <!--SITE NAVAGATION START-->
+      <nav class="flex justify-between">
+        <a
+          class="link black-70 hover-black no-underline flex items-center pa3"
+          href=""
+          >Chinese Flashcards</a
+        >
+        <div class="flex-grow pa3 flex items-center">
+          <!--     <a class="f6 link dib black dim mr3 mr4-ns" href="#0">About</a> -->
+          <a class="f6 link dib black dim mr3 mr4-ns" href="/slides/hsk1.html"
+            >Try</a
+          >
+
+          <!--           <a
+            class="f6 dib black bg-animate hover-bg-black hover-white no-underline pv2 ph3 br2 ba b--black-60"
+            href="#0"
+            >Sign out</a
+          > -->
+          <input
+            class="f6 dib black bg-animate hover-bg-black hover-white no-underline pv2 ph3 br2 ba b--black-60"
+            type="button"
+            value="Logout"
+            id="logout-button"
+          />
+        </div>
+      </nav>
+      <!--SITE NAVAGATION END-->
+
+      <section>
+        <!--        <input type="button" value="Logout" id="logout-button"> -->
+        <div id="logout-error"></div>
+              <div id="username" style="display:none;"></div>
+
+
+        <div id="todos"></div>
+        <div id="db-loading" class="ph3">Flash Card Library</div>
+        <div id="db-error"></div>
+
+        <section class="tc w-80 pa3 pa3-ns">
+          <article class="fl w-100 w-50-m  w-25-ns pa3-ns">
+            <div class="aspect-ratio aspect-ratio--1x1">
+              <a href="/slides/hsk1.html">
+                <img
+                src="https://cdn.glitch.com/6b2dd90f-c5a0-4948-b837-75f0ef4ef5b7%2Fcover%20-%20hsk1.png?v=1583265404612"
+                class="db bg-center cover aspect-ratio--object"
+              />
+              </a>
+              
+            </div>
+            <a href="/slides/hsk1.html" class="ph2 ph0-ns pb3 link db">
+              <h3 class="f5 f4-ns mb0 black-90">HSK 1</h3>
+              <h3 class="f6 f5 fw4 mt2 black-60">150 Words</h3>
+            </a>
+          </article>
+          <article class="fl w-100 w-50-m  w-25-ns pa3-ns">
+            <div class="aspect-ratio aspect-ratio--1x1">
+              <a href="/slides/hsk2.html"><img
+                src="https://cdn.glitch.com/6b2dd90f-c5a0-4948-b837-75f0ef4ef5b7%2Fcover%20-%20hsk2.png?v=1583265407549"
+                class="db bg-center cover aspect-ratio--object"
+              />
+              </a>
+              
+            </div>
+            <a href="/slides/hsk2.html" class="ph2 ph0-ns pb3 link db">
+              <h3 class="f5 f4-ns mb0 black-90">HSK 2</h3>
+              <h3 class="f6 f5 fw4 mt2 black-60">300 Words</h3>
+            </a>
+          </article>
+          <article class="fl w-100 w-50-m  w-25-ns pa3-ns">
+            <div class="aspect-ratio aspect-ratio--1x1">
+              <a href="/slides/hsk3.html">
+              <img
+                src="https://cdn.glitch.com/6b2dd90f-c5a0-4948-b837-75f0ef4ef5b7%2Fcover%20-%20hsk3.png?v=1583265412098"
+                class="db bg-center cover aspect-ratio--object"
+              />
+              </a>
+              
+            </div>
+            <a href="/slides/hsk3.html" class="ph2 ph0-ns pb3 link db">
+              <h3 class="f5 f4-ns mb0 black-90">HSK 3</h3>
+              <h3 class="f6 f5 fw4 mt2 black-60">599 Words</h3>
+            </a>
+          </article>
+          <article class="fl w-100 w-50-m  w-25-ns pa3-ns">
+            <div class="aspect-ratio aspect-ratio--1x1">
+              <a href="/slides/conversations.html">
+              <img
+                src="https://cdn.glitch.com/6b2dd90f-c5a0-4948-b837-75f0ef4ef5b7%2Fcover%20-%20Conversation%20Starter.png?v=1583268568373"
+                class="db bg-center cover aspect-ratio--object"
+              />
+              </a>
+              
+            </div>
+            <a href="/slides/conversations.html" class="ph2 ph0-ns pb3 link db">
+              <h3 class="f5 f4-ns mb0 black-90">
+                Conversation starter and closer
+              </h3>
+              <h3 class="f6 f5 fw4 mt2 black-60">14 sentences</h3>
+            </a>
+          </article>
+          <article class="fl w-100 w-50-m  w-25-ns pa3-ns">
+            <div class="aspect-ratio aspect-ratio--1x1">
+              <a href="/slides/daily.html">
+              <img
+                src="https://cdn.glitch.com/6b2dd90f-c5a0-4948-b837-75f0ef4ef5b7%2Fcover%20-%20Daily%20Sentances.png?v=1583268572009"
+                class="db bg-center cover aspect-ratio--object"
+              />
+              </a>
+              
+            </div>
+            <a href="/slides/daily.html" class="ph2 ph0-ns pb3 link db">
+              <h3 class="f5 f4-ns mb0 black-90">Daily Sentences</h3>
+              <h3 class="f6 f5 fw4 mt2 black-60">120 sentences</h3>
+            </a>
+          </article>
+          <article class="fl w-100 w-50-m  w-25-ns pa3-ns">
+            <div class="aspect-ratio aspect-ratio--1x1">
+              <a href="/slides/greetings.html">
+              <img
+                src="https://cdn.glitch.com/6b2dd90f-c5a0-4948-b837-75f0ef4ef5b7%2Fcover%20-%20Greetings.png?v=1583268576970"
+                class="db bg-center cover aspect-ratio--object"
+              />
+              </a>
+              
+            </div>
+            <a href="/slides/greetings.html" class="ph2 ph0-ns pb3 link db">
+              <h3 class="f5 f4-ns mb0 black-90">Greetings</h3>
+              <h3 class="f6 f5 fw4 mt2 black-60">9 expressions</h3>
+            </a>
+          </article>
+          <article class="fl w-100 w-50-m  w-25-ns pa3-ns">
+            <div class="aspect-ratio aspect-ratio--1x1">
+              <a href="/slides/time.html"><img
+                src="https://cdn.glitch.com/6b2dd90f-c5a0-4948-b837-75f0ef4ef5b7%2Fcover%20-%20time.png?v=1583268583430"
+                class="db bg-center cover aspect-ratio--object"
+              /></a>
+              
+            </div>
+            <a href="/slides/time.html" class="ph2 ph0-ns pb3 link db">
+              <h3 class="f5 f4-ns mb0 black-90">Time</h3>
+              <h3 class="f6 f5 fw4 mt2 black-60">5 words</h3>
+            </a>
+          </article>
+        </section>
+      </section>
+    </div>
+    <!-- LoggedIn View End -->
+  </body>
+  
+</html>

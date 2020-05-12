@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Site Styles -->
+    <link rel="stylesheet" href="/css/tachyons.css" />
+    <link rel="stylesheet" href="/css/modal.css" />
+    <link rel="stylesheet" href="/css/index.css" />
+
+    <!-- Primary Meta Tags -->
+    <title>Easy Chinese Flashcards</title>
+    <meta name="title" content="Easy Chinese Flashcards" />
+
+    <!-- Site Scripts -->
+    <script src="/js/userbase.js" defer></script>
+    <script
+      type="text/javascript"
+      src="https://sdk.userbase.com/1/userbase.js"
+    ></script>
+    <script src="https://gumroad.com/js/gumroad.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-134902527-8"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-134902527-8");
+    </script>
+  </head>
+
+  <body>
+    
+      <!-- LoggedOut View Start -->
+      <div id="logged-out-view">
+        
+        <!--SITE NAVAGATION START-->
+    <nav class="flex justify-between">
+      <a
+        class="link black-70 hover-black no-underline flex items-center pa3"
+        href="/index.html"
+        >Chinese Flashcards</a
+      >
+      <div class="flex-grow pa3 flex items-center">
+        <!--     <a class="f6 link dib black dim mr3 mr4-ns" href="#0">About</a> -->
+        <a class="f6 link dib black dim mr3 mr4-ns" href="/slides/hsk1.html"
+          >Try</a
+        >
+
+        <a
+          class="f6 dib black bg-animate hover-bg-black hover-white no-underline pv2 ph3 br2 ba b--black-60"
+          href="#0"
+          >Sign In</a
+        >
+      </div>
+ 
+    </nav>
+    <!--SITE NAVAGATION END-->
+            <section class="pa3 pa5-l pa5-m pa5-ns">
+       <input type="button" value="Logout" id="logout-button">
+
+        
+        <!--LogIn Info Start-->
+        <!--       <h1>Login</h1> -->
+        <form id="login-form" style="display:none;">
+                  <input
+          id="login-username"
+          type="text"
+          required
+          placeholder="Email Address"
+        />
+        <input
+          id="login-password"
+          type="password"
+          required
+          placeholder="Password"
+        />
+        <input type="submit" value="Sign in" />
+        </form>
+        <div id="login-error"></div>
+
+<!-- <input type="button" value="Logout" id="logout-button">
+  -->
+        <h1>Create an account</h1>
+        <form id="signup-form" action="/index.html">
+          <input
+            id="signup-username"
+            type="text"
+            required
+            placeholder="Email Address"
+          />
+          <input
+            id="signup-password"
+            type="password"
+            required
+            placeholder="Password"
+          />
+          <input type="submit" value="Create an account" />
+        </form>
+        <div id="signup-error"></div>
+              
+              </section>
+        <!--LogIn Info End-->
+              
+      </div>
+      <!-- LoggedOut View End -->
+
+      <!-- LoggedIn View Start -->
+    <div id="logged-in-view">
+      <!--SITE NAVAGATION START-->
+      <nav class="flex justify-between">
+        <a
+          class="link black-70 hover-black no-underline flex items-center pa3"
+          href=""
+          >Chinese Flashcards</a
+        >
+        <div class="flex-grow pa3 flex items-center">
+          <!--     <a class="f6 link dib black dim mr3 mr4-ns" href="#0">About</a> -->
+          <a class="f6 link dib black dim mr3 mr4-ns" href="/slides/hsk1.html"
+            >Try</a
+          >
+
+          <!--           <a
+            class="f6 dib black bg-animate hover-bg-black hover-white no-underline pv2 ph3 br2 ba b--black-60"
+            href="#0"
+            >Sign out</a
+          > -->
+          <input
+            class="f6 dib black bg-animate hover-bg-black hover-white no-underline pv2 ph3 br2 ba b--black-60"
+            type="button"
+            value="Logout"
+            id="logout-button"
+          />
+        </div>
+      </nav>
+      <!--SITE NAVAGATION END-->
+
+      <section>
+        <!--        <input type="button" value="Logout" id="logout-button"> -->
+        <div id="logout-error"></div>
+              <div id="username" style="display:none;"></div>
+
+
+        <div id="todos"></div>
+        <div id="db-loading" class="ph3">Flash Card Library</div>
+        <div id="db-error" style="display:none;"></div>
+
+        <section class="tc w-80 pa3 pa3-ns">
+          <article class="fl w-100 w-50-m  w-25-ns pa3-ns">
+            <div class="aspect-ratio aspect-ratio--1x1">
+              <img
+                src="https://cdn.glitch.com/6b2dd90f-c5a0-4948-b837-75f0ef4ef5b7%2Fcover%20-%20hsk1.png?v=1583265404612"
+                class="db bg-center cover aspect-ratio--object"
+              />
+            </div>
+            <a href="/slides/hsk1.html" class="ph2 ph0-ns pb3 link db">
+              <h3 class="f5 f4-ns mb0 black-90">HSK 1</h3>
+              <h3 class="f6 f5 fw4 mt2 black-60">150 Words</h3>
+            </a>
+          </article>
+          <article class="fl w-100 w-50-m  w-25-ns pa3-ns">
+            <div class="aspect-ratio aspect-ratio--1x1">
+              <img
+                src="https://cdn.glitch.com/6b2dd90f-c5a0-4948-b837-75f0ef4ef5b7%2Fcover%20-%20hsk2.png?v=1583265407549"
+                class="db bg-center cover aspect-ratio--object"
+              />
+            </div>
+            <a href="/slides/hsk2.html" class="ph2 ph0-ns pb3 link db">
+              <h3 class="f5 f4-ns mb0 black-90">HSK 2</h3>
+              <h3 class="f6 f5 fw4 mt2 black-60">300 Words</h3>
+            </a>
+          </article>
+          <article class="fl w-100 w-50-m  w-25-ns pa3-ns">
+            <div class="aspect-ratio aspect-ratio--1x1">
+              <img
+                src="https://cdn.glitch.com/6b2dd90f-c5a0-4948-b837-75f0ef4ef5b7%2Fcover%20-%20hsk3.png?v=1583265412098"
+                class="db bg-center cover aspect-ratio--object"
+              />
+            </div>
+            <a href="/slides/hsk3.html" class="ph2 ph0-ns pb3 link db">
+              <h3 class="f5 f4-ns mb0 black-90">HSK 3</h3>
+              <h3 class="f6 f5 fw4 mt2 black-60">599 Words</h3>
+            </a>
+          </article>
+          <article class="fl w-100 w-50-m  w-25-ns pa3-ns">
+            <div class="aspect-ratio aspect-ratio--1x1">
+              <img
+                src="https://cdn.glitch.com/6b2dd90f-c5a0-4948-b837-75f0ef4ef5b7%2Fcover%20-%20Conversation%20Starter.png?v=1583268568373"
+                class="db bg-center cover aspect-ratio--object"
+              />
+            </div>
+            <a href="/slides/conversations.html" class="ph2 ph0-ns pb3 link db">
+              <h3 class="f5 f4-ns mb0 black-90">
+                Conversation starter and closer
+              </h3>
+              <h3 class="f6 f5 fw4 mt2 black-60">14 sentences</h3>
+            </a>
+          </article>
+          <article class="fl w-100 w-50-m  w-25-ns pa3-ns">
+            <div class="aspect-ratio aspect-ratio--1x1">
+              <img
+                src="https://cdn.glitch.com/6b2dd90f-c5a0-4948-b837-75f0ef4ef5b7%2Fcover%20-%20Daily%20Sentances.png?v=1583268572009"
+                class="db bg-center cover aspect-ratio--object"
+              />
+            </div>
+            <a href="/slides/daily.html" class="ph2 ph0-ns pb3 link db">
+              <h3 class="f5 f4-ns mb0 black-90">Daily Sentences</h3>
+              <h3 class="f6 f5 fw4 mt2 black-60">120 sentences</h3>
+            </a>
+          </article>
+          <article class="fl w-100 w-50-m  w-25-ns pa3-ns">
+            <div class="aspect-ratio aspect-ratio--1x1">
+              <img
+                src="https://cdn.glitch.com/6b2dd90f-c5a0-4948-b837-75f0ef4ef5b7%2Fcover%20-%20Greetings.png?v=1583268576970"
+                class="db bg-center cover aspect-ratio--object"
+              />
+            </div>
+            <a href="/slides/greetings.html" class="ph2 ph0-ns pb3 link db">
+              <h3 class="f5 f4-ns mb0 black-90">Greetings</h3>
+              <h3 class="f6 f5 fw4 mt2 black-60">9 expressions</h3>
+            </a>
+          </article>
+          <article class="fl w-100 w-50-m  w-25-ns pa3-ns">
+            <div class="aspect-ratio aspect-ratio--1x1">
+              <img
+                src="https://cdn.glitch.com/6b2dd90f-c5a0-4948-b837-75f0ef4ef5b7%2Fcover%20-%20time.png?v=1583268583430"
+                class="db bg-center cover aspect-ratio--object"
+              />
+            </div>
+            <a href="/slides/time.html" class="ph2 ph0-ns pb3 link db">
+              <h3 class="f5 f4-ns mb0 black-90">Time</h3>
+              <h3 class="f6 f5 fw4 mt2 black-60">5 words</h3>
+            </a>
+          </article>
+        </section>
+      </section>
+    </div>
+    <!-- LoggedIn View End -->
+    
+  </body>
+</html>
